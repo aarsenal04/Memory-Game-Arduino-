@@ -19,7 +19,15 @@ To run this project, you will need the following hardware components:
 - 1 buzzer
 - 8 resistors (minimum 220 ohms): 4 for the push buttons and 4 for the LEDs.
 
-Ensure the components are connected as specified in the code (`ledPins`, `buttonPins`, and `buzzerPin`). Use resistors of at least 220 ohms to protect the LEDs and buttons from excess current.
+### Pin Configuration
+
+The game utilizes specific pins on the Arduino board for various components:
+
+- LEDs are connected to pins 2, 3, 4, and 5.
+- Buttons are connected to pins 6, 7, 8, and 9.
+- The buzzer is connected to pin 10.
+
+Ensure these connections match the definitions in the code (`ledPins`, `buttonPins`, and `buzzerPin`) to ensure proper functionality of the game.
 
 ## Installation
 1. Connect the hardware components as described in the [Hardware Requirements](#hardware-requirements) section.
